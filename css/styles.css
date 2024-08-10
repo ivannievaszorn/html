@@ -175,12 +175,8 @@ header {
   padding: 1em 0;
   text-align: center;
 }
-main {
-  padding: 2em;
-}
-section {
-  margin-bottom: 2em;
-}
+
+
 footer {
   background-color: #4caf50;
   color: white;
@@ -189,4 +185,57 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+
+.title{
+    font-size: 2.5em
+}
+
+#navbar{
+    border: 2px solid red;
+    width: 65vw;
+    margin: auto;
+    padding: 3em;
+}
+
+.links{
+    font-size: 2em;
+}
+
+.skillLogo{
+    width: 200px;
+    height: 200px;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 15px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: #b6a4b3;
+}
+
+#cards-container{
+    background-color: aquamarine;
+    width: 65vw;
+    margin: auto;
+    margin-top: 1em;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skillTitle{
+    font-size: 2em;
 }

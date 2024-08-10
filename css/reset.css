@@ -1,0 +1,74 @@
+/* Reset.css */
+
+/* Eliminar márgenes, paddings y bordes por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegurar que elementos de bloque ocupen el 100% del ancho disponible */
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Quitar estilos de lista por defecto */
+ul, ol {
+    list-style: none;
+}
+
+/* Quitar subrayado por defecto de los enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Quitar borde por defecto en imágenes */
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Quitar bordes por defecto en formularios y botones */
+button, input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+/* Asegurar que los elementos de bloque y formateo se comporten correctamente */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+/* Asegurar que tablas y celdas no tengan padding y border spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Quitar estilos por defecto de celdas en tablas */
+td, th {
+    text-align: left;
+    vertical-align: top;
+    padding: 0;
+}
+
+/* Asegurar que los formularios y sus elementos tengan estilos consistentes */
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}

@@ -3,36 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
     <title>Mi segundo primer sitio web</title>
   </head>
   <body>
     <header>
-      <h1>Bienvenidos a Mi Web Personal</h1>
-      <nav>
-        <a href="#sobre-mi">Sobre Mí</a> | <a href="#skills">Skills</a> |
-        <a href="#contacto">Contacto</a>
-      </nav>
+      <div>
+        <h1>Bienvenidos a Mi Web Personal</h1>
+        <nav id="navbar">
+          <a href="#sobre-mi" class="links">Sobre Mí</a> | <a href="#skills" class="links">Skills</a> |
+          <a href="#contacto" class="links">Contacto</a>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <h2>Sobre Mí</h2>
+      <article>
+        <h2 class="title">Sobre Mí</h2>
         <p>
           Soy Desarrollador Web. También soy uno de los fundadores de ALU. Me
           encantan los gin tonic y los monopatines eléctricos.
         </p>
+      </article>
+      <section id="skillsSection">
+        <h2 class="title">Skills</h2>
+        <div id="cards-container">
+          <div class="cards">
+            <h4 class="skillTitle">HTML</h4>
+            <img class="skillLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" />
+            </div>
+            <div class="cards">
+              <h4 class="skillTitle">CSS</h4>
+              <img class="skillLogo" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"/>
+            </div>
+            <div class="cards">
+              <h4 class="skillTitle">JavaScript</h4>
+              <img class="skillLogo" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"/>
+            </div>
+        </div>
       </section>
       <section>
-        <h2>Skills</h2>
-        <p>Lenguajes:</p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Contacto</h2>
+        <h2 class="title">Contacto</h2>
         <ul>
           <li>
             Email:
