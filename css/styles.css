@@ -165,6 +165,8 @@ hr {
 */
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -176,13 +178,12 @@ header {
   text-align: center;
 }
 
-
 footer {
   background-color: #4caf50;
   color: white;
   text-align: center;
   padding: 1em 0;
-  position: fixed;
+  position: sticky;
   width: 100%;
   bottom: 0;
 }
@@ -238,4 +239,8 @@ footer {
 
 .skillTitle{
     font-size: 2em;
+}
+
+.contact{
+    
 }
